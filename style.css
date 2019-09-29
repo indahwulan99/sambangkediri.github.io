@@ -1,0 +1,151 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.group:after{
+	content: "";
+	display: table;
+	clear: both; 
+}
+body{
+	background: #cccccc;
+	font-family: Helvetica, Arial, Sans-serif;
+	line-height: 1.5cm;
+	font-size: 14px;
+	color: #000;
+}
+
+a{
+	color: #000;	
+	text-decoration: none;
+	}
+a:hover, a:focus{
+	color: #660099;
+	text-decoration: underline;
+}
+
+#main-wrapper{
+	width: 960px;
+	margin: 0 auto;	
+}
+
+header{
+	width:auto;
+	height: 220px;
+	background: #0000ff;
+	padding: 20px 0px 0px 0px;
+}
+.logo a{
+	display: block;
+	width: 180px;
+	height: 180px;
+	background: url(sk.png);
+	background-repeat: no-repeat;
+}
+.primary ul{
+	background: #33CCFF;
+}
+.primary ul li{
+	float: left;
+	border-right: 1px solid #ffffff;
+}
+
+.primary ul li a{
+	display: block;
+	padding: 10px;
+	color: #000;
+	text-decoration: none;
+}
+.primary ul li a:hover{
+	background: #00FFFF;
+}
+.content-wrap{
+	background: #e5e5e5;
+}
+
+#main-content{
+	background: url(batik.jpg);
+	float: left;
+	width: 960px;
+	padding: 40px 20px;
+}
+
+.thumbnail{
+	float: left;
+	margin-right: 20px;
+}
+
+.posts{
+	clear: both;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #bbbbbb;
+}
+
+.posts div{
+	overflow: hidden;
+}
+
+.posts h1 a{
+	font-size: 24px;
+	color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+}
+.posts h1 a:hover{
+	color: #660099;
+}
+
+
+.posts p{
+	padding: 10px 0px 20px 0px;
+}
+.posts .more{
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+aside{
+	width: 300px;
+	background: #e5e5e5;
+	float: left;
+	padding: 40px 20px;
+}
+
+.side-box{
+	margin-bottom: 40px;
+}
+
+.side-box ul{
+	margin-left: 10px;	
+}
+
+.side-box ul li{
+	margin-bottom: 10px;
+} 
+
+.sidebar-heading{
+	font-size: 20px;
+	font-weight: bold;
+	color: #333333;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #fff;
+	
+}
+
+footer{
+	clear: both;
+	background: #0000ff;
+	padding: 20px 0px;
+	text-align: center;
+	width: 0 auto;
+	height: 30px;
+}
+footer small{
+	color: #000;
+	font-size: 15px;
+}
+
